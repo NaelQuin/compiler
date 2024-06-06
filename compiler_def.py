@@ -8,7 +8,7 @@ else:
 class Compiler(PythonParserVisitor):
 
     def __init__(self):
-        super(PythonParserVisitor, self).__init__()
+        super(Compiler, self).__init__()
         self.vars = {}
         return None
     
